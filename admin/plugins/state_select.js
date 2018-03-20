@@ -1,0 +1,14 @@
+$(function(){
+	$('#state').change(function(){
+		$('#code').val($(this).val());
+	});
+	$('#state_up').change(function(){
+		$('#code').val($(this).val());
+	});
+	$('#client_state').change(function(){
+		$('#code').val($(this).val());
+	});
+	$('#eclient_state').change(function(){
+		$('#code').val($(this).val());
+	});
+});
